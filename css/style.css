@@ -1,3 +1,5 @@
+/* COMMON */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -10,6 +12,32 @@ html, body {
     margin: 0 auto;
     max-width: 1024px;
 }
+
+.cta-button {
+    min-width: 200px;
+    border: none;
+    color: white;
+    background-color: #fdd224;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out ;
+}
+
+.cta-button:hover {
+    background-color: #e9cf6a;
+
+}
+
+.cta-button--big {
+    min-width: 250px;
+    font-size: 1.8rem;
+    padding: 0.8rem;
+}
+
+/* END OF COMMON */
+
+/* NAV */
 
 .nav {
     position: fixed;
@@ -44,3 +72,27 @@ html, body {
 .nav__link--active {
     background-color: rgb(59, 76, 93);
 }
+
+/* END OF NAV */
+
+/* HERO */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/hero.jpg);
+    margin-top: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__info {
+    color: white;
+    text-align: center;
+}
+
+/* END OF HERO */
