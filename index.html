@@ -127,47 +127,71 @@
             </div>
         </div>
 
-        <div id="contact">
-            <div>
-                <h2>Have questions?</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Cum sapiente facilis assumenda autem alias voluptas laborum
-                    doloribus qui officia eligendi illo ad accusantium, mollitia
-                    fugit consequatur similique quae accusamus modi?
-                </p>
-                <hr />
-                <div>
-                    <img src="./images/online-course.png" alt="" width="20px" />
-                    <p>Address</p>
+        <div class="contact" id="contact">
+            <div class="contact__container">
+                <div class="contact__text">
+                    <h2 class="contact__header">Have questions?</h2>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Cum sapiente facilis assumenda autem alias
+                        voluptas laborum doloribus qui officia eligendi illo ad
+                        accusantium, mollitia fugit consequatur similique quae
+                        accusamus modi?
+                    </p>
+                    <hr class="contact__rule" />
+                    <p class="contact__address-line">
+                        <i
+                            class="contact__address-icon fa-solid fa-location-pin"
+                        ></i>
+                        Address
+                    </p>
+                    <p class="contact__address-line">
+                        <i class="contact__address-icon fa-solid fa-phone"></i>
+                        Phone XXX-XXX-XXX
+                    </p>
                 </div>
-                <div>
-                    <img src="./images/online-course.png" alt="" width="20px" />
-                    <p>Phone number</p>
-                </div>
-            </div>
 
-            <div>
-                <form>
-                    <div>
+                <div class="contact__form">
+                    <form
+                        class="contact-form"
+                        action="https://form-data-to-html-table.examples.coderoad.pl/"
+                        method="POST"
+                    >
                         <div>
-                            <input type="text" placeholder="Email address" />
+                            <div>
+                                <input
+                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                                    name="email"
+                                    type="email"
+                                    placeholder="Email address"
+                                />
+                            </div>
+                            <div>
+                                <input
+                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                                    name="name"
+                                    type="text"
+                                    placeholder="Full name"
+                                />
+                            </div>
                         </div>
                         <div>
-                            <input type="text" placeholder="Full name" />
+                            <textarea
+                                class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                                name="message"
+                                rows="4"
+                                placeholder="Message"
+                            ></textarea>
                         </div>
-                    </div>
-                    <div>
-                        <textarea rows="4" placeholder="Message"></textarea>
-                    </div>
-                    <div>
-                        <button>Send</button>
-                    </div>
-                </form>
+                        <div>
+                            <button class="contact-form__submit">Send</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
 
-        <div id="footer">
+        <div class="footer" id="footer">
             <h3>The best online courses in the market</h3>
             <button class="cta-button cta-button--big">Buy now!</button>
         </div>
