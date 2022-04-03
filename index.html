@@ -18,8 +18,8 @@
         <title>Document</title>
     </head>
     <body>
-        <div class="nav" id="nav">
-            <div class="container">
+        <header class="nav" id="nav">
+            <nav class="container">
                 <ul class="nav__links">
                     <a class="nav__link nav__link--active" href="./#hero"
                         ><li class="nav__link-item">Home</li></a
@@ -34,170 +34,185 @@
                         ><li class="nav__link-item">Contact</li></a
                     >
                 </ul>
-            </div>
-        </div>
+            </nav>
+        </header>
 
-        <div class="hero" id="hero">
-            <div class="hero__info">
-                <h1 class="hero__sub-header">
-                    The best online courses in the market
-                </h1>
-                <p class="hero__sub-header">Checkout yourself!</p>
-                <button class="cta-button">Buy now!</button>
-            </div>
-        </div>
-
-        <div class="features container" id="features">
-            <div class="feature">
-                <i class="feature__icon fa-solid fa-earth-americas"></i>
-                <h4>Online access</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                    quisquam eius laboriosam eligendi commodi enim, repellat
-                    alias suscipit amet, doloribus tempora, temporibus ut
-                    ratione perspiciatis. Ipsam eum voluptatem provident
-                    perferendis?
-                </p>
-            </div>
-            <div class="feature">
-                <i class="feature__icon fa-solid fa-video"></i>
-                <h4>4K video lessons</h4>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Temporibus, hic aspernatur eveniet quibusdam ipsa quis? Quae
-                    praesentium eos veniam impedit sunt molestias vero unde
-                    rerum debitis odio. Et, culpa delectus.
-                </p>
-            </div>
-            <div class="feature">
-                <i class="feature__icon fa-solid fa-book"></i>
-                <h4>Contact with teacher</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptate officiis culpa, aliquam laboriosam porro,
-                    exercitationem aspernatur illum nisi impedit reprehenderit,
-                    nesciunt debitis quaerat quos distinctio quibusdam commodi
-                    eligendi error neque.
-                </p>
-            </div>
-        </div>
-
-        <div class="about" id="about">
-            <div class="about__container container">
-                <div class="about__text">
-                    <h2 class="about__header">
-                        Our team - meet people behind the course!
-                    </h2>
-                    <p class="about__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Temporibus corrupti, tempore consectetur, sit mollitia
-                        quae magni, et dicta quibusdam nobis odit! At sint minus
-                        labore quas rem blanditiis neque minima!
-                    </p>
+        <main>
+            <section class="hero" id="hero">
+                <div class="hero__info">
+                    <h1 class="hero__sub-header">
+                        The best online courses in the market
+                    </h1>
+                    <p class="hero__sub-header">Checkout yourself!</p>
+                    <button class="cta-button">Buy now!</button>
                 </div>
+            </section>
 
-                <div class="about__image">
-                    <div class="about__image-container"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="testimonials container" id="testimonials">
-            <div class="testimonial-arrow">
-                <i class="fa-solid fa-chevron-left"></i>
-            </div>
-            <div class="testimonial">
-                <p class="testimonial__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Iste nisi dolores, laudantium voluptate qui voluptatum quae
-                    exercitationem ipsum nemo minima quos iure eveniet veritatis
-                    culpa. Magnam nam at dolorum inventore.
-                </p>
-                <hr class="testimonial__rule" />
-                <img
-                    class="testimonial__avatar"
-                    src="./images/avatar.jpg"
-                    alt="Avatar"
-                    width="50px"
-                />
-                <p class="testimonial__name">John Doe</p>
-            </div>
-            <div class="testimonial-arrow">
-                <i class="fa-solid fa-chevron-right"></i>
-            </div>
-        </div>
-
-        <div class="contact" id="contact">
-            <div class="contact__container">
-                <div class="contact__text">
-                    <h2 class="contact__header">Have questions?</h2>
+            <section class="features container" id="features">
+                <div class="feature">
+                    <i class="feature__icon fa-solid fa-earth-americas"></i>
+                    <h4>Online access</h4>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Cum sapiente facilis assumenda autem alias
-                        voluptas laborum doloribus qui officia eligendi illo ad
-                        accusantium, mollitia fugit consequatur similique quae
-                        accusamus modi?
-                    </p>
-                    <hr class="contact__rule" />
-                    <p class="contact__address-line">
-                        <i
-                            class="contact__address-icon fa-solid fa-location-pin"
-                        ></i>
-                        Address
-                    </p>
-                    <p class="contact__address-line">
-                        <i class="contact__address-icon fa-solid fa-phone"></i>
-                        Phone XXX-XXX-XXX
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        In quisquam eius laboriosam eligendi commodi enim,
+                        repellat alias suscipit amet, doloribus tempora,
+                        temporibus ut ratione perspiciatis. Ipsam eum voluptatem
+                        provident perferendis?
                     </p>
                 </div>
-
-                <div class="contact__form">
-                    <form
-                        class="contact-form"
-                        action="https://form-data-to-html-table.examples.coderoad.pl/"
-                        method="POST"
-                    >
-                        <div>
-                            <div>
-                                <input
-                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
-                                    name="email"
-                                    type="email"
-                                    placeholder="Email address"
-                                />
-                            </div>
-                            <div>
-                                <input
-                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
-                                    name="name"
-                                    type="text"
-                                    placeholder="Full name"
-                                />
-                            </div>
-                        </div>
-                        <div>
-                            <textarea
-                                class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
-                                name="message"
-                                rows="4"
-                                placeholder="Message"
-                            ></textarea>
-                        </div>
-                        <div>
-                            <button class="contact-form__submit">Send</button>
-                        </div>
-                    </form>
+                <div class="feature">
+                    <i class="feature__icon fa-solid fa-video"></i>
+                    <h4>4K video lessons</h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Temporibus, hic aspernatur eveniet quibusdam ipsa
+                        quis? Quae praesentium eos veniam impedit sunt molestias
+                        vero unde rerum debitis odio. Et, culpa delectus.
+                    </p>
                 </div>
-            </div>
-        </div>
+                <div class="feature">
+                    <i class="feature__icon fa-solid fa-book"></i>
+                    <h4>Contact with teacher</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptate officiis culpa, aliquam laboriosam porro,
+                        exercitationem aspernatur illum nisi impedit
+                        reprehenderit, nesciunt debitis quaerat quos distinctio
+                        quibusdam commodi eligendi error neque.
+                    </p>
+                </div>
+            </section>
 
-        <div class="footer" id="footer">
-            <h3 class="footer__header">
-                The best online courses in the market
-            </h3>
-            <button class="cta-button cta-button--big">Buy now!</button>
-        </div>
+            <section class="about" id="about">
+                <div class="about__container container">
+                    <div class="about__text">
+                        <h2 class="about__header">
+                            Our team - meet people behind the course!
+                        </h2>
+                        <p class="about__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Temporibus corrupti, tempore consectetur, sit
+                            mollitia quae magni, et dicta quibusdam nobis odit!
+                            At sint minus labore quas rem blanditiis neque
+                            minima!
+                        </p>
+                    </div>
 
-        <div class="copyright" id="copyright">Made by @Michał Antczak</div>
+                    <div class="about__image">
+                        <div class="about__image-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials container" id="testimonials">
+                <div class="testimonial-arrow">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial__text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Iste nisi dolores, laudantium voluptate qui
+                        voluptatum quae exercitationem ipsum nemo minima quos
+                        iure eveniet veritatis culpa. Magnam nam at dolorum
+                        inventore.
+                    </p>
+                    <hr class="testimonial__rule" />
+                    <figure>
+                        <img
+                            class="testimonial__avatar"
+                            src="./images/avatar.jpg"
+                            alt="Avatar"
+                            width="50px"
+                        />
+                        <figcaption>
+                            <p class="testimonial__name">John Doe</p>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="testimonial-arrow">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="contact__container">
+                    <div class="contact__text">
+                        <h2 class="contact__header">Have questions?</h2>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Cum sapiente facilis assumenda autem alias
+                            voluptas laborum doloribus qui officia eligendi illo
+                            ad accusantium, mollitia fugit consequatur similique
+                            quae accusamus modi?
+                        </p>
+                        <hr class="contact__rule" />
+                        <p class="contact__address-line">
+                            <i
+                                class="contact__address-icon fa-solid fa-location-pin"
+                            ></i>
+                            Address
+                        </p>
+                        <p class="contact__address-line">
+                            <i
+                                class="contact__address-icon fa-solid fa-phone"
+                            ></i>
+                            Phone XXX-XXX-XXX
+                        </p>
+                    </div>
+
+                    <div class="contact__form">
+                        <form
+                            class="contact-form"
+                            action="https://form-data-to-html-table.examples.coderoad.pl/"
+                            method="POST"
+                        >
+                            <div>
+                                <div>
+                                    <input
+                                        class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                                        name="email"
+                                        type="email"
+                                        placeholder="Email address"
+                                    />
+                                </div>
+                                <div>
+                                    <input
+                                        class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                                        name="name"
+                                        type="text"
+                                        placeholder="Full name"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <textarea
+                                    class="contact-form__input contact-form__input--fullwidth contact-form__input--transparent"
+                                    name="message"
+                                    rows="4"
+                                    placeholder="Message"
+                                ></textarea>
+                            </div>
+                            <div>
+                                <button class="contact-form__submit">
+                                    Send
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <section class="footer" id="footer">
+                <h3 class="footer__header">
+                    The best online courses in the market
+                </h3>
+                <button class="cta-button cta-button--big">Buy now!</button>
+            </section>
+            <section class="copyright" id="copyright">
+                Made by @Michał Antczak
+            </section>
+        </footer>
     </body>
 </html>
